@@ -33,5 +33,5 @@ jobs:
     - name: Upload JAR Artifact
       uses: actions/upload-artifact@v4
       with:
-        name: java-app_rest
+        name: java-app-rest
         path: target/*.jar
